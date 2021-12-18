@@ -1,0 +1,206 @@
+/*  definicoes */
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    line-height: 20px;
+}
+
+body a {
+    text-decoration: none;
+    font-family: sans-serif;
+}
+
+
+
+/* header */
+
+header {
+    padding: 2vw 10vw;
+    background-color: #FAFF0D;
+}
+
+
+.menu{
+    position: absolute;
+    
+    right: 0vw;
+}
+
+header a {
+    margin: 3vw 1vw;
+    color: #000;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 29px;
+}
+
+
+/* banner */
+
+.banner{
+    background-color: #FAFF0D;
+    padding: 2vw 10vw;
+}
+
+.banner img{
+    margin: 0vw 0vw 2vw 7vw;
+}
+
+.banner h2{
+    font-weight: 300;
+    font-size: 60px;
+    line-height: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.banner h3{
+   
+    font-weight: 100;
+    font-size: 40px;
+    line-height: 50px;
+    display: flex;
+    align-items: center;
+}
+
+/* produto */
+
+.produto{
+    background-color: #F45353;
+    padding: 2vw 10vw;
+}
+
+.produto img{
+    margin: 3vw 0vw;
+}
+
+.produto p{
+    font-size: 30px;
+    line-height: 40px; 
+    font-weight: 100;
+    text-align: justify;
+    color: #FFFFFF;
+    margin: 5vw;
+    position: absolute;
+    width: 765px;
+    height: 188px;
+    
+}
+
+/* tabuleiro */
+
+.tabuleiro{
+    margin: 2vw 10vw;
+}
+
+.tabuleiro h3{
+    position: absolute;
+    font-size: 55px;
+    line-height: 44px;
+    display: flex;
+    position: absolute;
+    align-items: center;
+    margin: 0vw 20vw;
+    padding: 2vw;
+}
+
+.tabuleiro img{
+   margin: 8vw 0vw;
+}
+
+/* avaliacao */
+
+.avaliacao{
+    padding: 2vw 10vw;
+    background-color: #FAFF0D;
+}
+
+
+
+
+.avaliacao .user-1,.user-2{
+    margin: 2vw 0vw 2vw 0vw;
+    padding: 2vw;
+}
+
+
+
+.avaliacao img{
+    margin: 2vw ;
+   
+}
+
+.avaliacao p{
+    font-weight: 300;
+    font-size: 30px;
+    line-height: 40px; 
+    display: flex;
+    align-items: center;
+    text-align: center;
+    width: 400px;
+
+}
+
+/*  titulo */
+
+.titulo{
+    padding: 3vw 10vw;
+}
+
+.titulo p{
+  
+    font-size: 36px;
+    line-height: 44px;
+    text-align: justify;
+    text-transform: capitalize;
+    width: 960px;
+    margin: 2vw 0vw 2vw 4vw;
+}
+
+/* footer */
+
+footer{
+    background-color: #E97272;
+    padding: 2vw 10vw;
+}
+
+footer .col{
+    margin: 2vw 0vw
+}
+
+footer img{
+    width: 20%;
+}
+
+footer h5{
+    font-weight: 700;
+}
+
+footer ul{
+    list-style: none;
+    text-align: center;
+   
+}
+
+footer a{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+    color: #000;
+}
+
+hr:not([size]){
+    height: 5px;
+    border: 1px solid black;
+}
+
+.midia{
+    text-align: center;
+}
+
+.link{
+    margin-top: 3vw;
+    text-align: center;
+}
